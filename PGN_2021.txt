@@ -1,0 +1,54 @@
+division_template = {
+    name = "National Guard"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+	}
+}
+division_template = {
+	name = "Militarized Police"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+	}
+}
+units = {
+
+	division = {
+		name = "Trenton Police"
+		location = 8957
+		division_template = "Militarized Police"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+	division = {
+		name = "Asbury Park Police"
+		location = 9010
+		division_template = "Militarized Police"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+	division = {
+		name = "113th Infantry Regiment"
+		location = 9010
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 1
+	}	
+
+}

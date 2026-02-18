@@ -1,0 +1,18 @@
+characters={
+
+	### Country Leaders ###
+	PNG_phil_murphy = {
+		name = PNG_phil_murphy
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PGN/Phil.dds"
+			}
+		}
+		country_leader = {
+			traits = { unpopular_governor }
+			ideology = neoliberal
+			expire = "2060.1.1.1"
+			id = -1
+		}
+	}
+	
